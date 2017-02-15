@@ -1,0 +1,14 @@
+@{
+  Layout = "Shared/_Layout.cshtml";
+}
+
+<form action="/newSentence">
+  <label for="sentence">Enter your text:</label><br>
+  <textarea id="resizable" type="text" name="sentence" rows="4" cols="50">Enter blabla</textarea><br>
+  <label for="word">Enter the word you want to replace:</label>
+  <input type="text" name="word" >
+  <label for="new-word">Enter your new word:</label>
+  <input type="text" name="new-word" >
+  <button type="submit">Replace</button>
+</form>
+<hr>
